@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Nunito:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --bg: #F7F1F6;
+    --bg-alt: #E9F1E6;
+    --rose: #D98C9B;
+    --rose-deep: #C1667A;
+    --sage: #8FAE86;
+    --sage-deep: #6F9066;
+    --mustard: #EAC46B;
+    --text: #4B3B45;
+    --text-soft: #7A6670;
+    --card-bg: #FFFDFB;
+
+    --font-display: 'Fraunces', Georgia, serif;
+    --font-body: 'Nunito', sans-serif;
+
+    --radius-organic: 42% 58% 40% 39% / 45% 40% 60% 55%;
+    --max-w: 1120px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-body);
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+}
+
+.container {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 0 28px;
+}
+
+/* Accecibilidad */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid var(--sage-deep);
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ---------- Botones ---------- */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: .5em;
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 1rem;
+    padding: .85em 1.6em;
+    border-radius: 999px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+
+.btn-primary {
+    background: var(--rose);
+    color: #fff;
+    box-shadow: 0 8px 20px -8px rgba(193, 102, 122, .55);
+}
+
+.btn-primary:hover {
+    background: var(--rose-deep);
+    transform: translateY(-2px);
+}
+
+/* ---------- Header ---------- */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(247, 241, 246, .88);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(75, 59, 69, .08);
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 28px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .55em;
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.logo-mark {
+    flex-shrink: 0;
+}
+
+.main-nav {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .96rem;
+    color: var(--text-soft);
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.main-nav a:hover {
+    color: var(--rose-deep);
+}
+
+.nav-cta {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.nav-toggle span {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background: var(--text);
+    border-radius: 2px;
+    margin: 5px 0;
+}
+
+@media (max-width: 860px) {
+    .main-nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--bg);
+        flex-direction: column;
+        gap: 0;
+        border-bottom: 1px solid rgba(75, 59, 69, .08);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .3s ease;
+    }
+
+    .main-nav.open {
+        max-height: 320px;
+    }
+
+    .main-nav a {
+        display: block;
+        padding: 16px 28px;
+        border-top: 1px solid rgba(75, 59, 69, .06);
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-cta .btn-primary-desktop {
+        display: none;
+    }
+}

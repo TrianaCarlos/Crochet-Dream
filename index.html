@@ -13,15 +13,15 @@
 <body>
 
     <!-- ================= HEADER ================= -->
-    <header>
-        <div>
-            <a href="#inicio">
-                <img src="assets/logo/logo-mark.svg" alt="" width="34" height="34">
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="#inicio" class="logo">
+                <img src="assets/logo/logo-mark.svg" alt="" width="34" height="34" class="logo-mark">
                 Crochet Dream
             </a>
 
             <nav>
-                <ul>
+                <ul class="main-nav" id="main-nav">
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#diseña-pedido">Diseña tu pedido</a></li>
                     <li><a href="#coleccion">Colección</a></li>
@@ -31,9 +31,10 @@
                 </ul>
             </nav>
 
-            <div>
-                <a href="diseñador.html">Realizar pedido</a>
-                <button aria-label="Abrir menú">
+            <div class="nav-cta">
+                <a href="diseñador.html" class="btn btn-primary btn-primary-desktop">Realizar pedido</a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false"
+                    aria-controls="main-nav">
                     <span></span><span></span><span></span>
                 </button>
             </div>
