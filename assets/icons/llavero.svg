@@ -1,0 +1,8 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Llavero tejido con una inicial">
+  <circle cx="60" cy="60" r="56" fill="#F7F1F6"/>
+  <circle cx="60" cy="34" r="14" fill="none" stroke="#4B3B45" stroke-width="5"/>
+  <path d="M60 48V60" stroke="#4B3B45" stroke-width="5" stroke-linecap="round"/>
+  <rect x="34" y="60" width="52" height="40" rx="10" fill="#D98C9B"/>
+  <path d="M52 68L52 92M52 68L68 92M68 68L68 92" stroke="#F7F1F6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="86" cy="66" r="4" fill="#EAC46B"/>
+</svg>

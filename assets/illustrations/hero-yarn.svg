@@ -1,0 +1,43 @@
+<svg viewBox="0 0 560 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración de un ovillo de lana rosa con un gancho de crochet y una etiqueta con forma de corazón">
+  <!-- Blob de fondo -->
+  <path d="M108 96C176 34 292 22 372 66C452 110 500 202 486 288C472 374 396 428 316 462C236 496 132 500 82 434C32 368 48 288 56 214C64 140 40 158 108 96Z" fill="#E9F1E6"/>
+
+  <!-- Sombra suave del ovillo -->
+  <ellipse cx="272" cy="430" rx="126" ry="18" fill="#4B3B45" opacity="0.08"/>
+
+  <!-- Ovillo de lana -->
+  <circle cx="266" cy="286" r="132" fill="#D98C9B"/>
+  <g stroke="#C97284" stroke-width="5" fill="none" opacity="0.9">
+    <path d="M148 250C210 210 322 210 384 250"/>
+    <path d="M140 292C210 336 322 336 392 292"/>
+    <path d="M158 336C214 380 318 380 374 336"/>
+    <path d="M180 200C226 168 306 168 352 200"/>
+    <path d="M266 154C230 200 230 372 266 418"/>
+    <path d="M266 154C302 200 302 372 266 418"/>
+  </g>
+  <circle cx="266" cy="286" r="132" fill="none" stroke="#B85A6E" stroke-width="4" opacity="0.5"/>
+
+  <!-- Hilo suelto hacia la etiqueta -->
+  <path d="M368 232C410 214 424 176 402 140" stroke="#C97284" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- Etiqueta colgante -->
+  <g transform="translate(378,64) rotate(18)">
+    <path d="M0 26C0 12 12 0 26 0H84C98 0 110 12 110 26V70C110 84 98 96 84 96H26C12 96 0 84 0 70Z" fill="#F7F1F6" stroke="#4B3B45" stroke-width="3"/>
+    <circle cx="26" cy="34" r="6" fill="#EAC46B" stroke="#4B3B45" stroke-width="2.5"/>
+    <path d="M40 76C46 66 60 66 66 76C72 66 86 66 92 76C92 88 66 100 66 100C66 100 40 88 40 76Z" fill="#D98C9B" transform="translate(0,-38) scale(0.62)"/>
+    <path d="M30 44H86" stroke="#8FAE86" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 58H74" stroke="#8FAE86" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- Gancho de crochet -->
+  <g transform="translate(96,318) rotate(-24)">
+    <path d="M0 150 L10 12" stroke="#8B6A4F" stroke-width="12" stroke-linecap="round"/>
+    <path d="M10 12C10 -2 26 -6 30 8C33 18 24 24 16 20" stroke="#8B6A4F" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M0 150 L10 12" stroke="#A9855F" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- Puntitos decorativos -->
+  <circle cx="452" cy="360" r="7" fill="#EAC46B"/>
+  <circle cx="470" cy="200" r="5" fill="#8FAE86"/>
+  <circle cx="86" cy="140" r="6" fill="#EAC46B"/>
+</svg>

@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Emblema de Crochet Dream: una luna tejida a crochet con un ovillo de lana y estrellas">
+  <defs>
+    <clipPath id="moonClip">
+      <path d="M200 78C137 78 86 129 86 192C86 255 137 306 200 306C221 306 240 300 257 290C223 293 190 267 178 231C165 193 178 150 210 126C221 118 234 112 248 110C234 91 218 78 200 78Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Fondo circular -->
+  <circle cx="200" cy="200" r="192" fill="#F7F1F6"/>
+  <circle cx="200" cy="200" r="188" fill="none" stroke="#8FAE86" stroke-width="3" opacity="0.55"/>
+
+  <!-- Estrellas -->
+  <g fill="#8FAE86">
+    <path d="M300 108l4.5 11 11 4.5-11 4.5-4.5 11-4.5-11-11-4.5 11-4.5Z"/>
+    <path d="M320 200l3 7.5 7.5 3-7.5 3-3 7.5-3-7.5-7.5-3 7.5-3Z"/>
+  </g>
+  <g fill="#EAC46B">
+    <path d="M114 92l3.6 9 9 3.6-9 3.6-3.6 9-3.6-9-9-3.6 9-3.6Z"/>
+  </g>
+
+  <!-- Luna creciente -->
+  <path d="M200 78C137 78 86 129 86 192C86 255 137 306 200 306C221 306 240 300 257 290C223 293 190 267 178 231C165 193 178 150 210 126C221 118 234 112 248 110C234 91 218 78 200 78Z" fill="#EAC46B"/>
+
+  <!-- Textura de puntada dentro de la luna -->
+  <g clip-path="url(#moonClip)" stroke="#D9A94E" stroke-width="3" fill="none" opacity="0.65">
+    <path d="M70 140C100 152 130 152 160 140"/>
+    <path d="M66 172C98 186 132 186 164 172"/>
+    <path d="M66 204C98 218 132 218 164 204"/>
+    <path d="M74 236C104 248 132 248 160 236"/>
+    <path d="M86 266C112 276 136 276 160 266"/>
+  </g>
+  <path d="M200 78C137 78 86 129 86 192C86 255 137 306 200 306C221 306 240 300 257 290C223 293 190 267 178 231C165 193 178 150 210 126C221 118 234 112 248 110C234 91 218 78 200 78Z" fill="none" stroke="#C9A44C" stroke-width="2.5" opacity="0.5"/>
+
+  <!-- Ovillo de lana con gancho, en el "regazo" de la luna -->
+  <g transform="translate(214,214)">
+    <circle cx="0" cy="0" r="58" fill="#D98C9B"/>
+    <g stroke="#C1667A" stroke-width="3.5" fill="none" opacity="0.9">
+      <path d="M-50 -14C-24 -34 24 -34 50 -14"/>
+      <path d="M-54 8C-26 26 26 26 54 8"/>
+      <path d="M-46 30C-22 48 22 48 46 30"/>
+      <path d="M-32 -34C-14 -48 14 -48 32 -34"/>
+      <path d="M0 -50C-16 -20 -16 40 0 54"/>
+      <path d="M0 -50C16 -20 16 40 0 54"/>
+    </g>
+    <circle cx="0" cy="0" r="58" fill="none" stroke="#B85A6E" stroke-width="2.5" opacity="0.5"/>
+
+    <!-- Gancho -->
+    <g transform="translate(-44,20) rotate(-18)">
+      <path d="M0 46 L4 4" stroke="#8B6A4F" stroke-width="7" stroke-linecap="round"/>
+      <path d="M4 4C4 -3 12 -5 14 2C15 7 10 10 6 8" stroke="#8B6A4F" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

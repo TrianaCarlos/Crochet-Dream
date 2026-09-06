@@ -1,0 +1,18 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ramo de flores tejidas a crochet">
+  <circle cx="60" cy="60" r="56" fill="#F7F1F6"/>
+  <path d="M60 96V64" stroke="#8FAE86" stroke-width="4" stroke-linecap="round"/>
+  <path d="M60 78L46 88" stroke="#8FAE86" stroke-width="4" stroke-linecap="round"/>
+  <path d="M60 82L74 90" stroke="#8FAE86" stroke-width="4" stroke-linecap="round"/>
+  <g>
+    <circle cx="44" cy="46" r="11" fill="#D98C9B"/>
+    <circle cx="44" cy="46" r="4" fill="#EAC46B"/>
+  </g>
+  <g>
+    <circle cx="68" cy="38" r="12" fill="#D98C9B"/>
+    <circle cx="68" cy="38" r="4.4" fill="#EAC46B"/>
+  </g>
+  <g>
+    <circle cx="82" cy="56" r="9" fill="#D98C9B"/>
+    <circle cx="82" cy="56" r="3.4" fill="#EAC46B"/>
+  </g>
+</svg>

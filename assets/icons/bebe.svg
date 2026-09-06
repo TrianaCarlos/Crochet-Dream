@@ -1,0 +1,11 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Set de bebé tejido a crochet">
+  <circle cx="60" cy="60" r="56" fill="#F7F1F6"/>
+  <path d="M34 52C34 34 46 24 60 24C74 24 86 34 86 52" fill="#8FAE86"/>
+  <rect x="34" y="50" width="52" height="8" rx="4" fill="#EAC46B"/>
+  <circle cx="60" cy="24" r="5" fill="#EAC46B"/>
+  <g>
+    <path d="M40 78C40 70 46 66 52 66C58 66 62 70 62 78C62 86 56 90 51 90C46 90 40 86 40 78Z" fill="#D98C9B"/>
+    <path d="M62 84C68 84 70 88 70 92" stroke="#D98C9B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M68 78C74 78 80 74 80 68C80 62 76 58 70 58C64 58 60 62 60 68" fill="#D98C9B"/>
+  </g>
+</svg>
